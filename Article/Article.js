@@ -142,6 +142,7 @@ function createArticle(data){
   para1.textContent = data.firstParagraph;
   para2.textContent = data.secondParagraph;
   para3.textContent = data.thirdParagraph;
+  btn.textContent = 'espand'
 
   btn.addEventListener('click', ()=>{
     article.classList.toggle('article-open');

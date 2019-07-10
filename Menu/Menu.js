@@ -49,7 +49,7 @@ function createMenu(listData) {
 
   menu.classList.add('menu');
 
-  menuBtn = document.querySelector('menu-button');
+  const menuBtn = document.querySelector('.menu-button');
 
   menuBtn.addEventListener('click', ()=>{
     menu.classList.toggle('menu--open');
